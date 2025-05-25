@@ -1,34 +1,34 @@
 <svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
   <!-- Central hub/orchestrator -->
-  <circle cx="32" cy="32" r="6" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  <circle cx="32" cy="32" r="6" fill="none" stroke="#66B2FF" stroke-width="2"/>
   
   <!-- Microservices nodes -->
-  <circle cx="16" cy="16" r="4" fill="none" stroke="#D4AF37" stroke-width="2"/>
-  <circle cx="48" cy="16" r="4" fill="none" stroke="#D4AF37" stroke-width="2"/>
-  <circle cx="16" cy="48" r="4" fill="none" stroke="#D4AF37" stroke-width="2"/>
-  <circle cx="48" cy="48" r="4" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  <circle cx="16" cy="16" r="4" fill="none" stroke="#66B2FF" stroke-width="2"/>
+  <circle cx="48" cy="16" r="4" fill="none" stroke="#66B2FF" stroke-width="2"/>
+  <circle cx="16" cy="48" r="4" fill="none" stroke="#66B2FF" stroke-width="2"/>
+  <circle cx="48" cy="48" r="4" fill="none" stroke="#66B2FF" stroke-width="2"/>
   
   <!-- Additional distributed nodes -->
-  <circle cx="8" cy="32" r="3" fill="none" stroke="#D4AF37" stroke-width="1.5"/>
-  <circle cx="56" cy="32" r="3" fill="none" stroke="#D4AF37" stroke-width="1.5"/>
-  <circle cx="32" cy="8" r="3" fill="none" stroke="#D4AF37" stroke-width="1.5"/>
-  <circle cx="32" cy="56" r="3" fill="none" stroke="#D4AF37" stroke-width="1.5"/>
+  <circle cx="8" cy="32" r="3" fill="none" stroke="#66B2FF" stroke-width="1.5"/>
+  <circle cx="56" cy="32" r="3" fill="none" stroke="#66B2FF" stroke-width="1.5"/>
+  <circle cx="32" cy="8" r="3" fill="none" stroke="#66B2FF" stroke-width="1.5"/>
+  <circle cx="32" cy="56" r="3" fill="none" stroke="#66B2FF" stroke-width="1.5"/>
   
   <!-- Connection lines showing workflow orchestration -->
-  <line x1="26" y1="26" x2="20" y2="20" stroke="#D4AF37" stroke-width="1.5" opacity="0.7"/>
-  <line x1="38" y1="26" x2="44" y2="20" stroke="#D4AF37" stroke-width="1.5" opacity="0.7"/>
-  <line x1="26" y1="38" x2="20" y2="44" stroke="#D4AF37" stroke-width="1.5" opacity="0.7"/>
-  <line x1="38" y1="38" x2="44" y2="44" stroke="#D4AF37" stroke-width="1.5" opacity="0.7"/>
+  <line x1="26" y1="26" x2="20" y2="20" stroke="#66B2FF" stroke-width="1.5" opacity="0.7"/>
+  <line x1="38" y1="26" x2="44" y2="20" stroke="#66B2FF" stroke-width="1.5" opacity="0.7"/>
+  <line x1="26" y1="38" x2="20" y2="44" stroke="#66B2FF" stroke-width="1.5" opacity="0.7"/>
+  <line x1="38" y1="38" x2="44" y2="44" stroke="#66B2FF" stroke-width="1.5" opacity="0.7"/>
   
   <!-- Connections to edge nodes -->
-  <line x1="26" y1="32" x2="11" y2="32" stroke="#D4AF37" stroke-width="1.5" opacity="0.7"/>
-  <line x1="38" y1="32" x2="53" y2="32" stroke="#D4AF37" stroke-width="1.5" opacity="0.7"/>
-  <line x1="32" y1="26" x2="32" y2="11" stroke="#D4AF37" stroke-width="1.5" opacity="0.7"/>
-  <line x1="32" y1="38" x2="32" y2="53" stroke="#D4AF37" stroke-width="1.5" opacity="0.7"/>
+  <line x1="26" y1="32" x2="11" y2="32" stroke="#66B2FF" stroke-width="1.5" opacity="0.7"/>
+  <line x1="38" y1="32" x2="53" y2="32" stroke="#66B2FF" stroke-width="1.5" opacity="0.7"/>
+  <line x1="32" y1="26" x2="32" y2="11" stroke="#66B2FF" stroke-width="1.5" opacity="0.7"/>
+  <line x1="32" y1="38" x2="32" y2="53" stroke="#66B2FF" stroke-width="1.5" opacity="0.7"/>
   
   <!-- Data flow indicators (small arrows) -->
-  <path d="M 20 18 L 22 16 L 20 14" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.8"/>
-  <path d="M 44 18 L 46 16 L 44 14" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.8"/>
-  <path d="M 20 46 L 22 48 L 20 50" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.8"/>
-  <path d="M 44 46 L 46 48 L 44 50" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.8"/>
+  <path d="M 20 18 L 22 16 L 20 14" fill="none" stroke="#66B2FF" stroke-width="1" opacity="0.8"/>
+  <path d="M 44 18 L 46 16 L 44 14" fill="none" stroke="#66B2FF" stroke-width="1" opacity="0.8"/>
+  <path d="M 20 46 L 22 48 L 20 50" fill="none" stroke="#66B2FF" stroke-width="1" opacity="0.8"/>
+  <path d="M 44 46 L 46 48 L 44 50" fill="none" stroke="#66B2FF" stroke-width="1" opacity="0.8"/>
 </svg>
