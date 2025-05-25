@@ -2,10 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 @codewithsadee
- */
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -59,8 +55,8 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(200, 80%, 60%); /* Changed to sky blue */
-  --vegas-gold: hsl(200, 60%, 70%); /* Changed to a lighter sky blue */
+  --sky-blue: hsl(200, 80%, 60%);
+  --light-sky-blue: hsl(200, 60%, 70%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
@@ -152,12 +148,12 @@ textarea {
 }
 
 ::selection {
-  background: var(--orange-yellow-crayola);
+  background: var(--sky-blue);
   color: var(--smoky-black);
 }
 
 :focus {
-  outline-color: var(--orange-yellow-crayola);
+  outline-color: var(--sky-blue);
 }
 
 html {
@@ -199,7 +195,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: var(--orange-yellow-crayola);
+  color: var(--sky-blue);
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
@@ -287,7 +283,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: var(--orange-yellow-crayola);
+  background: var(--sky-blue);
   border-radius: 5px;
 }
 
@@ -378,7 +374,7 @@ main {
   right: -15px;
   border-radius: 0 15px;
   font-size: 13px;
-  color: var(--orange-yellow-crayola);
+  color: var(--sky-blue);
   background: var(--border-gradient-onyx);
   padding: 10px;
   box-shadow: var(--shadow-2);
@@ -511,7 +507,7 @@ main {
 }
 
 .navbar-link.active {
-  color: var(--orange-yellow-crayola);
+  color: var(--sky-blue);
 }
 
 /*-----------------------------------*\
@@ -853,7 +849,7 @@ main {
 }
 
 .timeline-list span {
-  color: var(--vegas-gold);
+  color: var(--light-sky-blue);
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
@@ -875,7 +871,9 @@ main {
   left: -33px;
   height: 6px;
   width: 6px;
-  background: var(--text-gradient-yellow);
+  background: var(
+    --sky-blue
+  ); /* Assuming text-gradient-yellow should also be sky blue */
   border-radius: 50%;
   box-shadow: 0 0 0 4px var(--jet);
 }
@@ -923,7 +921,9 @@ main {
 }
 
 .skill-progress-fill {
-  background: var(--text-gradient-yellow);
+  background: var(
+    --sky-blue
+  ); /* Assuming text-gradient-yellow should also be sky blue */
   height: 100%;
   border-radius: inherit;
 }
@@ -1053,7 +1053,7 @@ main {
   --scale: 0.8;
 
   background: var(--jet);
-  color: var(--orange-yellow-crayola);
+  color: var(--sky-blue);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1187,7 +1187,7 @@ main {
 }
 
 .blog-post-item > a:hover .blog-item-title {
-  color: var(--orange-yellow-crayola);
+  color: var(--sky-blue);
 }
 
 .blog-text {
@@ -1252,7 +1252,7 @@ main {
 }
 
 .form-input:focus {
-  border-color: var(--orange-yellow-crayola);
+  border-color: var(--sky-blue);
 }
 
 textarea.form-input {
@@ -1275,7 +1275,7 @@ textarea.form-input::-webkit-resizer {
   position: relative;
   width: 100%;
   background: var(--border-gradient-onyx);
-  color: var(--orange-yellow-crayola);
+  color: var(--sky-blue);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1621,6 +1621,9 @@ textarea.form-input::-webkit-resizer {
     height: 8px;
     width: 8px;
     left: -43px;
+    background: var(
+      --sky-blue
+    ); /* Assuming text-gradient-yellow should also be sky blue */
   }
 
   .skills-item:not(:last-child) {
@@ -2028,4 +2031,3 @@ textarea.form-input::-webkit-resizer {
     max-width: 700px;
   }
 }
-
