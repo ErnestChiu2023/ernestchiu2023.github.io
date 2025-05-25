@@ -1,0 +1,845 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ernest Chiu - Software Engineer Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/profilepicture.png"
+              alt="Ernest Chiu"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Ernest Chiu">Ernest Chiu</h1>
+
+            <p class="title">Software Engineer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:ernestctchiu@gmail.com" class="contact-link"
+                  >ernestctchiu@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">LinkedIn</p>
+
+                <a
+                  href="https://linkedin.com/in/ErnestChiu2023"
+                  class="contact-link"
+                  >ErnestChiu2023</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">GitHub</p>
+
+                <a href="https://github.com/ErnestChiu2023" class="contact-link"
+                  >ErnestChiu2023</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>San Francisco, California, USA</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://linkedin.com/in/ErnestChiu2023"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/ErnestChiu2023" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <!-- <li class="navbar-item"> -->
+            <!--   <button class="navbar-link" data-nav-link>Portfolio</button> -->
+            <!-- </li> -->
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm a Full-Stack Software Engineer from San Francisco with a
+              passion for building end-to-end solutions that scale. As a
+              generalist, I enjoy working across the entire technology
+              stack—from crafting intuitive React frontends to architecting
+              robust backend systems that serve hundreds of thousands of users.
+            </p>
+
+            <p>
+              My experience spans platform engineering, AI infrastructure, data
+              platforms, and modern web development. I've built everything from
+              server-driven UI systems and RAG-powered applications to
+              enterprise data platforms and microservices architectures. What
+              drives me is solving complex problems holistically, whether that's
+              optimizing a user interface, designing scalable APIs, or building
+              the infrastructure that powers it all.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What I do</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg"
+                    alt="Frontend Development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Frontend Development</h4>
+
+                  <p class="service-item-text">
+                    Modern React applications with TypeScript, server-driven UI
+                    systems, and responsive user experiences that scale to
+                    millions of users.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Backend Development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Backend & APIs</h4>
+
+                  <p class="service-item-text">
+                    Scalable microservices, RESTful APIs, and distributed
+                    systems using Go, Ruby, and Python with cloud-native
+                    architectures.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-platform.svg"
+                    alt="Platform Engineering icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Platform Engineering</h4>
+
+                  <p class="service-item-text">
+                    Infrastructure, DevOps, and developer tools that enable
+                    teams to ship faster while maintaining reliability and
+                    performance at scale.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-ai.svg"
+                    alt="Data & AI Systems icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data & AI Systems</h4>
+
+                  <p class="service-item-text">
+                    Enterprise data platforms, RAG systems for LLMs, real-time
+                    analytics, and AI-powered applications with focus on
+                    performance.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <!-- Education Section -->
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Education</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">University of Waterloo</h4>
+                <span>Sep 2018 — Dec 2023</span>
+                <p class="timeline-text">Bachelor of Computer Science</p>
+              </li>
+            </ol>
+          </section>
+
+          <!-- Experience Section -->
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="briefcase-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Experience</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Software Engineer – Persona (Platform Team)
+                </h4>
+                <span>Jul 2023 — May 2025</span>
+                <ul class="timeline-text">
+                  <li>
+                    •
+                    <strong
+                      >Reduced feature deployment cycles from 2-3 weeks to
+                      same-day releases</strong
+                    >
+                    serving 1000+ concurrent users by architecting server-driven
+                    UI platform with Ruby on Rails, React/TypeScript, and JSON
+                    schema validation
+                  </li>
+                  <li>
+                    •
+                    <strong
+                      >Enabled dynamic data discovery for 100,000+ users</strong
+                    >
+                    in fraudulent case analysis workflows by building enterprise
+                    data platform with external third-party Snowflake/PostgreSQL
+                    integration and real-time schema discovery
+                  </li>
+                  <li>
+                    •
+                    <strong
+                      >Enabled LLM context retrieval across 100K+ platform
+                      entity relationships</strong
+                    >
+                    with 99.9% uptime by designing dependency management system
+                    using MongoDB graph architecture for RAG-based fraud
+                    solution insights
+                  </li>
+                  <li>
+                    • <strong>Improved developer productivity</strong> through
+                    intelligent change detection and navigation by developing
+                    semantic diff system for complex configuration objects with
+                    visual comparison capabilities
+                  </li>
+                </ul>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Software Engineer Intern – Persona (Graph Team)
+                </h4>
+                <span>Sep 2022 — Jan 2023</span>
+                <ul class="timeline-text">
+                  <li>
+                    •
+                    <strong>Reduced fraudulent accounts by 15,000+</strong>
+                    through improved malicious user identification by developing
+                    device fingerprinting system with Ruby on Rails and React
+                  </li>
+                  <li>
+                    •
+                    <strong
+                      >Enabled real-time search across 45,000+ customer
+                      records</strong
+                    >
+                    with enhanced investigator workflow efficiency by
+                    integrating ElasticSearch into Graph product
+                  </li>
+                </ul>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Software Engineer Intern – Wish (API Team)
+                </h4>
+                <span>Jan 2022 — Apr 2022</span>
+                <ul class="timeline-text">
+                  <li>
+                    • <strong>Processed 12,000+ merchant listings</strong> with
+                    significantly improved data quality and onboarding
+                    experience by architecting distributed workflow system using
+                    Temporal and Go with automated validation pipeline
+                  </li>
+                  <li>
+                    • <strong>Reduced server load by 22%</strong> and improved
+                    stability during peak traffic by implementing per-customer
+                    rate limiting across 40+ endpoints in Go
+                  </li>
+                  <li>
+                    • <strong>Onboarded 4,000+ products</strong> from external
+                    partner expanding marketplace catalog by delivering
+                    cross-team integration collaborating with 3 external
+                    engineers to build Go microservice
+                  </li>
+                </ul>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Software Engineer Intern – Snapcommerce
+                </h4>
+                <span>May 2021 — Aug 2021</span>
+                <ul class="timeline-text">
+                  <li>
+                    • <strong>Migrated 650,000+ users</strong> across
+                    Snapcommerce ecosystem enabling unified user experience by
+                    architecting centralized authentication infrastructure using
+                    Golang and gRPC
+                  </li>
+                  <li>
+                    •
+                    <strong
+                      >Enhanced chatbot experience for 300,000 daily
+                      users</strong
+                    >
+                    across multiple languages by scaling conversational AI
+                    platform with 20+ conversation states and
+                    internationalization support in Python
+                  </li>
+                </ul>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Software Engineer Intern – BorgIQ
+                </h4>
+                <span>Jan 2020 — Dec 2020</span>
+                <ul class="timeline-text">
+                  <li>
+                    •
+                    <strong>Processed 100+ RPA executions per minute</strong>
+                    with scalable task management by building cloud-native
+                    automation platform implementing workflow orchestration
+                    using AWS services (SQS, Lambda)
+                  </li>
+                  <li>
+                    •
+                    <strong>Persisted 20,000+ execution artifacts</strong>
+                    providing comprehensive audit trails and debugging
+                    capabilities by designing robust data storage solution using
+                    S3 and Node.js
+                  </li>
+                </ul>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Software Developer Intern – JANA Corporation
+                </h4>
+                <span>May 2019 — Aug 2019</span>
+                <ul class="timeline-text">
+                  <li>
+                    •
+                    <strong>Built GIS-based risk visualization platform</strong>
+                    for pipeline integrity across 5,000+ regions in Canada by
+                    developing enterprise analytics dashboard collaborating with
+                    8 engineers
+                  </li>
+                  <li>
+                    •
+                    <strong
+                      >Achieved 65% reduction in calculation runtime</strong
+                    >
+                    significantly improving system responsiveness by optimizing
+                    computational performance through SQL execution plan
+                    analysis and core algorithm refactoring
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </section>
+
+          <!-- Skills Section -->
+          <section class="skill">
+            <h3 class="h3 skills-title">Technical Skills</h3>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Backend Development (Go, Ruby, Python)</h5>
+                  <data value="95">95%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">
+                    Platform Engineering & Cloud Infrastructure
+                  </h5>
+                  <data value="90">90%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Frontend Development (React, TypeScript)</h5>
+                  <data value="85">85%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Data Platforms & AI Infrastructure</h5>
+                  <data value="88">88%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 88%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">
+                    Database Systems (PostgreSQL, MongoDB, Snowflake)
+                  </h5>
+                  <data value="85">85%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Platform Engineering</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>AI Infrastructure</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Data Platforms</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Platform Engineering</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>AI Infrastructure</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Data Platforms</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="platform engineering"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="Server-Driven UI Platform"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Server-Driven UI Platform</h3>
+
+                  <p class="project-category">Platform Engineering</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ai infrastructure"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="RAG System for LLMs"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">RAG System for LLMs</h3>
+
+                  <p class="project-category">AI Infrastructure</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="data platforms"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.jpg"
+                      alt="Enterprise Data Analytics Platform"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Enterprise Data Analytics Platform
+                  </h3>
+
+                  <p class="project-category">Data Platforms</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="platform engineering"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="Dependency Management System"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Dependency Management System</h3>
+
+                  <p class="project-category">Platform Engineering</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="platform engineering"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="Microservices Architecture"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Microservices Architecture</h3>
+
+                  <p class="project-category">Platform Engineering</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="data platforms"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="Real-time Query Platform"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Real-time Query Platform</h3>
+
+                  <p class="project-category">Data Platforms</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d403794.0465200891!2d-122.77151877879639!3d37.75764044322051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
